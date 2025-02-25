@@ -1,0 +1,101 @@
+# OS-specific files
+###################
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+System Volume Information/
+*.lnk
+
+# Linux
+*~
+.nfs*
+
+# Editor-specific files
+########################
+
+# Vim
+*.swp
+*.swo
+.viminfo
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains (IntelliJ, PyCharm, WebStorm, etc.)
+.idea/
+*.iml
+
+# Eclipse
+.metadata/
+*.classpath
+*.project
+*.settings/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Programming language-specific ignores
+#######################################
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+*.whl
+
+# Node.js / JavaScript
+node_modules/
+npm-debug.log*
+yarn-error.log
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+bin/
+
+# C/C++
+*.o
+*.so
+*.out
+*.obj
+*.exe
+
+# Go
+*.exe
+*.test
+*.mod
+*.sum
+
+# Rust
+target/
+Cargo.lock
+
+# Logs & Dependency Files
+##########################
+
+logs/
+*.log
+*.pid
+*.seed
+npm-debug.log*
+yarn-debug
